@@ -1,3 +1,5 @@
 {
-  "framework": "nextjs"
+  "routes": [
+    { "src": "/.*", "dest": "/src/middleware.ts" }
+  ]
 }
